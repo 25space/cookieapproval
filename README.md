@@ -9,3 +9,5 @@ Finally, ad the content of the PHP file to your website header, change the path 
 
 
 You will find further information on our Developer website https://25space.com/developer/api/cookie.php
+
+We are not legal advice. We do not assume any liability, not even for function and legal security.
