@@ -1,0 +1,76 @@
+/*------------------------------------------------------------------
+[COOKIE BOX]
+*/
+#cookie-spacepopup {
+	/*font-size: 13px;*/
+	background-color: rgba(0,0,0,0.8);
+	text-align: left;
+	color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 8000;
+	line-height: 20px;
+}
+.cookie-spacepopup-inner {
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.2);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.2);
+	box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.2);
+	padding: 20px;
+	position: absolute;
+	z-index: 9000;
+	/*max-width: 400px;*/
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background-color: rgba(0,0,0,1);
+}
+.cookie-spacepopup-inner button {
+	background-color: #ff9900;
+	border: 2px solid #ff9900;
+	color: #fff;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.cookie-spacepopup-inner button:hover {
+	background-color: #fff;
+	border: 2px solid #fff;
+	color: #000;
+}
+.cookie-more a {
+	/*border: 1px solid #ccc;*/
+	line-height: 24px;
+	display: block;
+	color: #ccc;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.cookie-more a:hover,
+.cookie-more a:focus {
+	text-decoration: none;
+	/*background-color: #333; */
+	color: #ff9900;
+}
+
+/*------------------------------------------------------------------
+[MOBILE SETTINGS- OPTIONAL IF NEEDED]
+*/
+@media screen and (max-width: 767px) {
+	nomobile {
+		display: none; !important
+	}	
+	.nomobile {
+		display: none; !important
+	}		
+}
+@media screen and (min-width: 768px) {
+	nodesktop {
+		display: none;
+	}		
+}
