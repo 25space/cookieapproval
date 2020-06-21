@@ -6,7 +6,7 @@ function cookieOk() {
   now.setTime(deleteCookie);
   var enddate = now.toUTCString();
      
-  document.cookie = "yourwebsitecookieinfo = 0120_nothing_to_see_here; path=/; secure; expires=" + enddate;
+  document.cookie = "yourwebsitecookieinfo = nothing_to_see_here; path=/; secure; expires=" + enddate;
   location.reload();
   document.getElementById("cookie-popup").classList.add("hidden");
 }
