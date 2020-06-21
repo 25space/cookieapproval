@@ -1,4 +1,5 @@
 		<script type="text/javascript" src="/PathToYourFile/cookie.js"></script>
+		<link href="/PathToYourFile/style.css" rel="stylesheet" type="text/css" media="all" />
 		
 		<?php 
 		if( isset($_COOKIE['yourwebsitecookieinfo']) ) { 
