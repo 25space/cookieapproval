@@ -1,7 +1,7 @@
 		<script type="text/javascript" src="/PathToYourFile/cookie.js"></script>
 		
 		<?php 
-		if( isset($_COOKIE['25spaceCookieInfoOK']) ) { 
+		if( isset($_COOKIE['yourwebsitecookieinfo']) ) { 
 			$showPopup = false;
 		} else {
 			$showPopup = true;
